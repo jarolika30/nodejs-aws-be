@@ -28,6 +28,8 @@ provider:
   stage: dev
   region: eu-central-1
   profile: epmc-jscc4User
+  iam:
+    role: arn:aws:iam::398158581759:role/BasicLambdaExecutionRole
 
 # you can add statements to the Lambda function's IAM Role here
 #  iam:
