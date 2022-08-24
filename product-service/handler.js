@@ -1,11 +1,13 @@
 'use strict';
 
-module.exports.getProduct = async (event) => {
+module.exports.getProductsList = async (event) => {
   return {
     statusCode: 200,
     body: {
-      productName: "Stone",
-      price: 123
+      products: [{
+        productName: "Stone",
+        price: 123
+      }]
     }
   };
 
